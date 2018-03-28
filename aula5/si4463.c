@@ -12,6 +12,6 @@ char si4463_existe_mensagem() {
 	return 1;
 }
 char* si4463_recebe_mensagem() {
-	return "Mensagem\n";
+	return "Mensagem SI4463\n";
 
 }

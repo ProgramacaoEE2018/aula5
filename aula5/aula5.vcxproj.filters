@@ -21,10 +21,16 @@
     <ClCompile Include="si4463.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="si4464.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="si4463.h">
-      <Filter>Source Files</Filter>
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="si4464.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
