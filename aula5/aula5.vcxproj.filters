@@ -32,5 +32,8 @@
     <ClInclude Include="si4464.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="modem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,3 +1,7 @@
+#include "modem.h"
+
+extern modem_struct si4464;
+
 void si4464_inicializa();
 void si4464_transmite(char *);
 void si4464_start_recepcao();

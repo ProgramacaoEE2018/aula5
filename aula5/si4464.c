@@ -15,3 +15,11 @@ char* si4464_recebe_mensagem() {
 	return "Mensagem SI4464\n";
 
 }
+
+modem_struct si4464 = {
+	si4464_inicializa,
+	si4464_transmite,
+	si4464_start_recepcao,
+	si4464_existe_mensagem,
+	si4464_recebe_mensagem
+};

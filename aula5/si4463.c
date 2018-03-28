@@ -15,3 +15,11 @@ char* si4463_recebe_mensagem() {
 	return "Mensagem SI4463\n";
 
 }
+
+modem_struct si4463={
+	si4463_inicializa,
+	si4463_transmite,
+	si4463_start_recepcao,
+	si4463_existe_mensagem,
+	si4463_recebe_mensagem
+};
